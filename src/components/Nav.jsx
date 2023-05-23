@@ -5,7 +5,7 @@ const Nav = () => {
   const [IsMenuOpen, setMenuOpen] = useState(false);
   return (
     <>
-      <div className="sticky top-0 w-full h-16 bg-white shadow-md flex justify-between items-center xl:justify-center z-50">
+      <div className=" sticky top-0 w-full h-16 bg-white shadow-md flex justify-between items-center xl:justify-center z-50">
         <img
           className="relative transition md:left-[6vw] xl:mr-11 scale-75"
           src={logo}
