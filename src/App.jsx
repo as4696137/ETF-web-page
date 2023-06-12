@@ -1,14 +1,19 @@
 import { useState } from "react";
 import Home from "./page/Home";
-import Prectice from "./components/Practice";
+import Prectice from "./page/Practice";
+import MaintenanceA from "./page/MaintenanceA";
+import MaintenanceB from "./page/MaintenanceB";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
-      {/* <Prectice /> */}
-      <Home />
+      <Routes>
+        <Route path="/" index element={<Home />} />
+        <Route path="practice" element={<Prectice />} />
+        <Route path="MaintenanceA" element={<MaintenanceA />} />
+        <Route path="MaintenanceB" element={<MaintenanceB />} />
+      </Routes>
     </div>
   );
 }
