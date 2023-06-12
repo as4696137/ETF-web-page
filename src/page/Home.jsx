@@ -10,7 +10,6 @@ import Change_p6 from "../components/Change_p6";
 import Footer from "../components/Footer";
 import TopBtn from "../components/TopBtn";
 
-import { Outlet, Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="relative font-noto min-w-[320px] tracking-wider scroll-smooth">
