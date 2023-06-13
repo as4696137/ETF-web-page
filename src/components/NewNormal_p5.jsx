@@ -9,7 +9,7 @@ import { Element } from "react-scroll";
 import dumpUpImg from "../img/p5/dumpUp.png";
 import etfImg from "../img/00696.svg";
 import ellipseImg from "../img/Ellipse.svg";
-import downArrowImg from "../img/down arrow.png";
+import downArrowImg from "../img/down arrow.svg";
 const NewNormal_p5 = () => {
   const [inViewref, inView] = useInView({ threshold: 0.3 });
   const thumdUpRotateStyle = useSpring({

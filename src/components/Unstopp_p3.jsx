@@ -11,7 +11,7 @@ import { countNumber } from "./Ani_count_number";
 
 import etfImg from "../img/00696.svg";
 import ellipseImg from "../img/Ellipse.svg";
-import downArrowImg from "../img/down arrow.png";
+import downArrowImg from "../img/down arrow.svg";
 
 const Unstopp_p3 = () => {
   const [inViewref, inView] = useInView({ threshold: 0.35 });

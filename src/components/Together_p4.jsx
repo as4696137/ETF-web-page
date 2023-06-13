@@ -13,7 +13,7 @@ import Anipath from "./Anipath";
 
 import etfImg from "../img/00696.svg";
 import ellipseImg from "../img/Ellipse.svg";
-import downArrowImg from "../img/down arrow.png";
+import downArrowImg from "../img/down arrow.svg";
 
 const Together_p4 = () => {
   const [inViewref, inView] = useInView({ threshold: 0.25 });

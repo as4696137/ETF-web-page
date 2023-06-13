@@ -85,7 +85,7 @@ export default {
         text: "3px 4px 4px rgba(0, 0, 0, 0.4)",
       },
       backgroundImage: {
-        "p2-circle": "url('src/img/p2/circle.png')",
+        "p2-circle": "url('src/img/p2/circle.svg')",
       },
       flexGrow: {
         3: "3",
@@ -118,6 +118,7 @@ export default {
       "62px": "3.875rem",
       "66px": "4.125rem",
       "70px": "4.375rem",
+      "88px": "5.5rem",
       "92px": "5.75rem",
       "96px": "6rem",
       "100px": "6.25rem",
