@@ -6,6 +6,7 @@ import Ani_appear_comp from "./Ani_appear_comp";
 import { animated } from "@react-spring/web";
 import { countNumber } from "./Ani_count_number";
 
+import circleLineImg from "../img/p2/circle.svg";
 import etfImg from "../img/00696.svg";
 import ellipseImg from "../img/Ellipse.svg";
 
@@ -71,9 +72,15 @@ const LoveEarth_p2 = () => {
           <div className=" px-2% py-5 md:py-14 rounded-2xl bg-white">
             <div className="flex flex-col md:flex-row">
               {/* 圈圈 */}
+              {/* bg-p2-circle bg-no-repeat bg-center bg-contain */}
               <div
-                className={`py-120px xl:pt-[170px] w-full md:w-1/2 xl:w-2/5 bg-p2-circle bg-no-repeat bg-center bg-contain`}
+                className={`relative py-120px xl:pt-[170px] w-full md:w-1/2 xl:w-2/5 `}
               >
+                <img
+                  className="absolute w-full h-full top-0 "
+                  src={circleLineImg}
+                  alt=""
+                />
                 <div className="text-font-black font-bold leading-none text-center">
                   <p className="text-lg md:text-22px xl:text-xl">
                     潔淨能源政策資金達
