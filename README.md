@@ -20,7 +20,7 @@ This project is an interactive introduction website built using React and variou
 - [Check out the live website](https://mingenho.website/)
 - [Reference web template](https://www.ftft.com.tw/areas/00899etf/index.html)
 
-For more details and the actual code implementation, please refer to the [repository](https://github.com/your-repo).
+For more details and the actual code implementation, please refer to the [repository](https://github.com/as4696137/ETFwebPage-Layout/tree/master).
 
 *Note: This project is based on an existing website design with modifications made to suit the specified functionalities.*
 
