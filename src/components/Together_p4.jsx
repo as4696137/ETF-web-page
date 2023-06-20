@@ -89,7 +89,7 @@ const Together_p4 = () => {
                     <div>
                       {/* <img src={box0Img} alt="" /> */}
                       <Ani_appear_comp
-                        className="py-2 px-4"
+                        className="py-2 px-6"
                         element={"svg"}
                         inView={inView}
                         xmlns="http://www.w3.org/2000/svg"
@@ -245,14 +245,14 @@ const Together_p4 = () => {
                     {/* all */}
                     <div className="w-17/20 flex flex-col">
                       {/* 1 */}
-                      <div className="py-1.5 md:py-5 flex flex-col md:flex-row items-center justify-center">
+                      <div className="py-3 md:py-5 flex flex-col md:flex-row items-center justify-center">
                         <Ani_appear_comp
                           element={"div"}
                           inView={inView}
                           className="max-w-[1/3] md:ml-5% pt-2 md:py-6"
                         >
                           <svg
-                            className="py-2"
+                            className="py-3 px-3"
                             xmlns="http://www.w3.org/2000/svg"
                             width="108"
                             height="105"
@@ -332,14 +332,14 @@ const Together_p4 = () => {
                         </p>
                       </div>
                       {/* 2 */}
-                      <div className="py-1.5 md:py-5 flex flex-col md:flex-row items-center justify-center">
+                      <div className="py-3 md:py-5 flex flex-col md:flex-row items-center justify-center">
                         <Ani_appear_comp
                           element={"div"}
                           inView={inView}
                           className="max-w-[1/3] md:ml-5% pt-2 md:py-6"
                         >
                           <svg
-                            className="py-2"
+                            className="py-3 px-3"
                             xmlns="http://www.w3.org/2000/svg"
                             width="108"
                             height="82"
@@ -460,14 +460,14 @@ const Together_p4 = () => {
                         </p>
                       </div>
                       {/* 3 */}
-                      <div className="py-1.5 md:py-5 flex flex-col md:flex-row items-center justify-center">
+                      <div className="py-3 md:py-5 flex flex-col md:flex-row items-center justify-center">
                         <Ani_appear_comp
                           element={"div"}
                           inView={inView}
                           className="md:ml-5% pt-2 md:py-6"
                         >
                           <svg
-                            className="py-2"
+                            className="py-3 px-3"
                             xmlns="http://www.w3.org/2000/svg"
                             width="101"
                             height="97"
