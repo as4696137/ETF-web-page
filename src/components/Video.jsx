@@ -3,7 +3,7 @@ import tl_tri from "../img/video/tl_tri.svg";
 import br_tri from "../img/video/br_tri.svg";
 // import box1 from "../img/video/box1.svg";
 // import box2 from "../img/video/box2.svg";
-import title from "../img/video/title.svg";
+import title from "../img/video/title2.svg";
 import videoFile from "../video/00696.mp4";
 
 const Video = () => {
